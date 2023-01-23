@@ -31,3 +31,9 @@ while (item < 51) {
        console.log(Array);
 
 
+
+   let randomArray = [];
+   for (let i = 0; i < 10000; i++) {
+        randomArray.push(i * i);
+   }
+   console.log(randomArray);
